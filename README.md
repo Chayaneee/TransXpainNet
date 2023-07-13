@@ -23,7 +23,7 @@ We have used three datasets for this experiment.
 
 # Quantative Results
 
-| $textbf{Datasets}$                     | $\textbf{Models}$                                           | $\textbf{B1}$         | $\textbf{B2}$          | $\textbf{B3}$         | $\textbf{B4}$         | $\textbf{METEOR}$     | $\textbf{ROUGE-L}$    | $\textbf{CIDER}$      |
+| $\textbf{Datasets}$                     | $\textbf{Models}$                                           | $\textbf{BLEU-1}$         | $\textbf{BLEU-2}$          | $\textbf{BLEU-3}$         | $\textbf{BLEU-4}$         | $\textbf{METEOR}$     | $\textbf{ROUGE-L}$    | $\textbf{CIDER}$      |
 |-------------------------------------|-----------------------------------------------------------|---------------------|----------------------|---------------------|---------------------|---------------------|---------------------|---------------------|
 | IU X-ray  | Sonit et al. 2019                     | $0.374$             | $0.224$              | $0.152$             | $0.11$              | $0.164$             | $0.308$             | $0.360$             |
 |                                     | Xu et al. 2018                    | $0.464$             | $0.358$              | $0.270$             | $0.195$             | $\textbf{0.274}$    | $0.366$             | $--$                |
