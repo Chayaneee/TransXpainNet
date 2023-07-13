@@ -23,6 +23,8 @@ We have used three datasets for this experiment.
 
 # Quantative Results
 
+# 1. NLP Evaluation Metrics
+
 | $\textbf{Datasets}$                     | $\textbf{Models}$                                           | $\textbf{BLEU-1}$         | $\textbf{BLEU-2}$          | $\textbf{BLEU-3}$         | $\textbf{BLEU-4}$         | $\textbf{METEOR}$     | $\textbf{ROUGE-L}$    | $\textbf{CIDER}$      |
 |-------------------------------------|-----------------------------------------------------------|---------------------|----------------------|---------------------|---------------------|---------------------|---------------------|---------------------|
 | IU X-ray  | Sonit et al. 2019                     | $0.374$             | $0.224$              | $0.152$             | $0.11$              | $0.164$             | $0.308$             | $0.360$             |
@@ -45,6 +47,24 @@ We have used three datasets for this experiment.
 |                                     | XPRONET 2022                         | 0.344               | 0.215                | 0.146               | 0.105               | 0.138               | 0.279               | --                  |
 |                                     | CvT-212DistilGPT2 2022        | 0.395               | 0.249                | 0.172               | 0.127               | 0.155               | 0.288               | $\textbf{0.379}$      |
 |                                     | Ours (with $25\%$)                                        | $\underline{0.432}$   | $\underline{0.296}$   | $\underline{0.218}$   | $\underline{0.167}$   | $\underline{0.181}$   | $\underline{0.336}$   | $\underline{0.272}$   |
+
+# 2. CE and Semantic Similarity-based Metrics
+
+| $textbf{Datasets}$                     | $\textbf{Models}$                                           | $\textbf{AUC}$      | $\textbf{F1S}$      | $\textbf{Precision}$ | $\textbf{Recall}$   | $\textbf{Accuracy}$ | $\textbf{ST}$       | $\textbf{AE}$       | $\textbf{VE}$       | $\textbf{GM}$       |
+|-------------------------------------|-----------------------------------------------------------|-------------------|-------------------|--------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|
+|                                     | Omar et al. 2021          | ---               | ---               | ---                | ---               | ---               | $\underline{0.632}$ | $\underline{0.863}$ | $\underline{0.514}$ | $\underline{0.715}$ |
+|                                     | Nguyen et al. 2021              | $\textbf{0.877}$    | $\underline{0.626}$ | $\underline{0.604}$  | $\textbf{0.649}$    | $\underline{0.937}$ | --                | --                | --                | --                |
+|                                     | Ours                                                      | $\underline{0.800}$ | $\textbf{0.650}$   | $\textbf{0.696}$     | $\underline{0.610}$ | $\textbf{0.947}$    | $\textbf{0.765}$    | $\textbf{0.922}$    | $\textbf{0.569}$    | $\textbf{0.790}$    |
+| $\textbf{MIMIC-CXR}$ | Liu et. al                       | --                |                   | 0.309              | 0.134             | $\underline{0.867}$ | --                | --                | --                | --                |
+| %                                   | 1-NN 2020                       | --                | 0.186             | 0.304              |                   | 0.837             | --                | --                | --                | --                |
+| %                                   | R2GEN 2020                     | --                | 0.276             | 0.333              | 0.273             | --                | --                | --                | --                | --                |
+|                                     | Transformer Prog. 2021| --                | 0.308             | 0.240              | $\textbf{0.428}$    | --                | --                | --                | --                | --                |
+|                                     | Co-ATT 2021              | --                | 0.303             | 0.352              | 0.298             | --                | --                | --                | --                | --                |
+|                                     | Nguyen et al. 2021            | $\textbf{0.784}$    | $\textbf{0.412}$    | $\textbf{0.432}$     | $\underline{0.418}$ | $\textbf{0.887}$    | --                | --                | --                | --                |
+|                                     | R2GENCMN 2022                     | --                | 0.278             | 0.334              | 0.275             | --                | --                | --                | --                | --                |
+|                                     | CvT-212DistilGPT2 2022      | --                | $\underline{0.390}$ | 0.365              | $\underline{0.418}$ | --                | --                | --                | --                | --                |
+|                                     | Ours (with $25\%$)                                        | $\underline{0.695}$ | 0.350             | $\underline{0.413}$  | 0.340             | 0.851             | $\textbf{0.714}$    | $\textbf{0.937}$    | $\textbf{0.522}$    | $\textbf{0.777}$    |
+
 
 
 
