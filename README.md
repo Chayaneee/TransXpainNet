@@ -16,3 +16,5 @@ We have used three datasets for this experiment.
   - [IU X-ray](https://openi.nlm.nih.gov/)
   - [MIMIC-CXR](https://physionet.org/content/mimiciii-demo/1.4/)
   
+# Qualitative Results
+# 1. DeiT-CXR 
