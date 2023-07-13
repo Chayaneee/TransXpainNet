@@ -9,7 +9,7 @@ This is the official repository of our proposed Fully Transformers_Based_Automat
 ![Block_Diagram](https://github.com/Chayaneee/Transformers_Based_Automatic_Report_Generation/assets/54748679/145254f7-1e4f-4b24-85e8-c0edf9e60a1b)
 
 
-# Data used for experiments: 
+# Data used for Experiments: 
 
 We have used three datasets for this experiment.
   - [CheXpert](https://stanfordmlgroup.github.io/competitions/chexpert/)
