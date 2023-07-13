@@ -27,7 +27,7 @@ We have used three datasets for this experiment.
 
 | $\textbf{Datasets}$                     | $\textbf{Models}$                                           | $\textbf{BLEU-1}$         | $\textbf{BLEU-2}$          | $\textbf{BLEU-3}$         | $\textbf{BLEU-4}$         | $\textbf{METEOR}$     | $\textbf{ROUGE-L}$    | $\textbf{CIDER}$      |
 |-------------------------------------|-----------------------------------------------------------|---------------------|----------------------|---------------------|---------------------|---------------------|---------------------|---------------------|
-| IU X-ray  | Sonit et al. 2019                     | $0.374$             | $0.224$              | $0.152$             | $0.11$              | $0.164$             | $0.308$             | $0.360$             |
+| $\textbf{IU X-ray}$  | Sonit et al. 2019                     | $0.374$             | $0.224$              | $0.152$             | $0.11$              | $0.164$             | $0.308$             | $0.360$             |
 |                                     | Xu et al. 2018                    | $0.464$             | $0.358$              | $0.270$             | $0.195$             | $\textbf{0.274}$    | $0.366$             | $--$                |
 |                                     | Jing et al. 2018           | $\textbf{0.517}$    | $\textbf{0.386}$     | $\textbf{0.306}$    | $\textbf{0.247}$    | $0.217$             | $\textbf{0.447}$    | $\underline{0.327}$ |
 |                                     | Omar et al. 2021            | $0.387$             | $0.245$              | $0.166$             | $0.111$             | $0.164$             | $0.289$             | $0.257$             |
@@ -36,7 +36,7 @@ We have used three datasets for this experiment.
 |                                     | Nguyen et al. 2021             | $\underline{0.515}$ | $\underline{0.378}$ | $\underline{0.293}$ | $\underline{0.235}$ | $\underline{0.219}$ | $\underline{0.436}$ | $--$                |
 |                                     | R2GENCMN 2022                        | $0.475$             | $0.309$              | $0.222$             | $0.170$             | $0.191$             | $0.375$             | $--$                |
 |                                     | Ours                                                      | $0.483$             | $0.352$              | $0.273$             | $0.219$             | $0.208$             | $0.418$             | $\textbf{0.536}$    |
-| MIMIC-CXR | Liu et. al                       | 0.313               | 0.206                | 0.146               | 0.103               | --                  | 0.306               | --                  |
+| $\textbf{MIMIC-CXR}$ | Liu et. al                       | 0.313               | 0.206                | 0.146               | 0.103               | --                  | 0.306               | --                  |
 |                                   | 1-NN 2020                       | 0.367               | 0.215                | 0.138               | 0.095               | 0.139               | 0.228               | --                  |
 |                                 | R2GEN 2020                      | 0.353               | 0.218                | 0.145               | 0.103               | 0.142               | 0.277               | --                  |
 |                                     | Transformer Prog. 2021 | 0.378               | 0.232                | 0.154               | 0.107               | 0.145               | 0.272               | --                  |
@@ -50,9 +50,9 @@ We have used three datasets for this experiment.
 
 # 2. CE and Semantic Similarity-based Metrics
 
-| $textbf{Datasets}$                     | $\textbf{Models}$                                           | $\textbf{AUC}$      | $\textbf{F1S}$      | $\textbf{Precision}$ | $\textbf{Recall}$   | $\textbf{Accuracy}$ | $\textbf{ST}$       | $\textbf{AE}$       | $\textbf{VE}$       | $\textbf{GM}$       |
+| $\textbf{Datasets}$                     | $\textbf{Models}$                                           | $\textbf{AUC}$      | $\textbf{F1S}$      | $\textbf{Precision}$ | $\textbf{Recall}$   | $\textbf{Accuracy}$ | $\textbf{ST}$       | $\textbf{AE}$       | $\textbf{VE}$       | $\textbf{GM}$       |
 |-------------------------------------|-----------------------------------------------------------|-------------------|-------------------|--------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|
-|                                     | Omar et al. 2021          | ---               | ---               | ---                | ---               | ---               | $\underline{0.632}$ | $\underline{0.863}$ | $\underline{0.514}$ | $\underline{0.715}$ |
+|     $\textbf{IU X-ray}$            | Omar et al. 2021          | ---               | ---               | ---                | ---               | ---               | $\underline{0.632}$ | $\underline{0.863}$ | $\underline{0.514}$ | $\underline{0.715}$ |
 |                                     | Nguyen et al. 2021              | $\textbf{0.877}$    | $\underline{0.626}$ | $\underline{0.604}$  | $\textbf{0.649}$    | $\underline{0.937}$ | --                | --                | --                | --                |
 |                                     | Ours                                                      | $\underline{0.800}$ | $\textbf{0.650}$   | $\textbf{0.696}$     | $\underline{0.610}$ | $\textbf{0.947}$    | $\textbf{0.765}$    | $\textbf{0.922}$    | $\textbf{0.569}$    | $\textbf{0.790}$    |
 | $\textbf{MIMIC-CXR}$ | Liu et. al                       | --                |                   | 0.309              | 0.134             | $\underline{0.867}$ | --                | --                | --                | --                |
