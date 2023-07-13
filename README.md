@@ -18,3 +18,8 @@ We have used three datasets for this experiment.
   
 # Qualitative Results
 # 1. DeiT-CXR 
+![DeiT-CXR_Results](https://github.com/Chayaneee/Transformers_Based_Automatic_Report_Generation/assets/54748679/4fcb6510-92b9-4534-8328-3943d55de7c4)
+
+# 2. Report Generation
+![Report_Generation](https://github.com/Chayaneee/Transformers_Based_Automatic_Report_Generation/assets/54748679/c2a6ccf4-c0f4-4d55-85d0-1034269eeb47)
+
