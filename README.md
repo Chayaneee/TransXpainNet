@@ -15,7 +15,7 @@ This is the official repository of our proposed Fully Transformers_Based_Automat
 # Data used for experiments: 
 
 We have used three datasets for this experiment.
-  - [CheXpert]([https://openi.nlm.nih.gov/](https://stanfordmlgroup.github.io/competitions/chexpert/))
+  - [CheXpert](https://stanfordmlgroup.github.io/competitions/chexpert/)
   - [IU X-ray](https://openi.nlm.nih.gov/)
   - [MIMIC-CXR](https://physionet.org/content/mimiciii-demo/1.4/)
   
